@@ -1,0 +1,49 @@
+body{
+    overflow: hidden;
+    background-color: #272932!important;
+    color: whitesmoke !important;
+}
+
+.img-size{
+    width: 200px;
+}
+
+.user-choise{
+    width: 100px;
+}
+
+.fading-element{
+    position: absolute;
+    padding-top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.result{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.back{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.back>a, .back>a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.back>div{
+    width: 0px;
+    height: 0px;
+    margin-right: 5px;
+    border-top: 7px solid transparent;
+    border-right: 10px solid white;
+    border-bottom: 7px solid transparent;
+}

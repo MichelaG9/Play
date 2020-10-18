@@ -1,0 +1,23 @@
+body{
+    overflow: hidden;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.row-height{
+    height: 25vh;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.col-height{
+    height: 100%;
+}
+
+.subtitles{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
